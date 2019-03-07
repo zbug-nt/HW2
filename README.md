@@ -54,3 +54,17 @@ Print "Hello World!" in static method ***Hello*** and print arguments in static 
 
 ### Screenshot
 ![Hello2](/Hello2/Hello2.png)
+## Hello3: WPF Hello World
+A label and a button is added to the form. A messagebox saying "Hello World!" will show up when the button is clicked.
+
+    private void Button_Click(object sender, RoutedEventArgs e)
+    {
+        MessageBox.Show("Hello World!");
+    }
+
+### Screenshot
+Before click:
+![before click](/Hello3/Hello3_1.png)
+
+After click:
+![after click](/Hello3/Hello3_2.png)
