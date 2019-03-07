@@ -29,5 +29,24 @@ namespace Hello3
         {
             MessageBox.Show("Hello World!");
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            String[] args = Environment.GetCommandLineArgs();
+            String msg = "";
+            if (args.Length == 0)
+            {
+                msg = "There is no argument.";
+            }
+            else
+            {
+                msg = $"There are {args.Length} argument(s).\nThey are:\n";
+                for (int i = 0; i < args.Length; ++i)
+                {
+                    msg += args[i] + "\n";
+                }
+            }
+            MessageBox.Show(msg);
+        }
     }
 }
