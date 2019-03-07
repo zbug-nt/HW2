@@ -65,7 +65,7 @@ Click "Show Args":
 
 ![after click](/Hello3/Hello3_2.png)
 ## Hello4: WindowsForm Hello World
-A new class called ***Helloer*** is created. It contains a static method called ***GenerateHelloString***, which returns a string showing the commandline arguments. The string will be shown when the button is pushed. Still, the first argument is always the path of the program.
+A new class called ***Helloer*** is created. It contains the static method ***GenerateHelloString***, which returns a string showing the commandline arguments. The string will be shown when the button is pushed. Still, the first argument is always the path of the program.
 ### Screenshot
 Before push the button:
 
