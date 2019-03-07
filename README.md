@@ -74,3 +74,5 @@ Before push the button:
 After push the button:
 
 ![after](/Hello4/Hello4_2.png)
+## Hello5: Android HelloWorld
+I can't get the program run on my phone, but I guess it should be a HelloWorld, since I did nothing else but added a TextView to the Activity and changed its text to "Hello World!". Actually, I do have programmed on my phone with Java and it works well, but this time it failed. That's strange...
