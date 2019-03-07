@@ -26,7 +26,7 @@ namespace Hello1
         {
             if (args.Length == 0)
             {
-                Console.WriteLine("There is no argument");
+                Console.WriteLine("There is no argument.");
                 return;
             }
             Console.WriteLine($"There are {args.Length} argument(s).\nThey are:");
