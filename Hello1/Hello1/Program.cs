@@ -11,7 +11,7 @@ namespace Hello1
         static void Main(string[] args)
         {
             HelloWorld helloWorld = new HelloWorld();
-            helloWorld.printArgs(args);
+            helloWorld.PrintArgs(args);
         }
     }
 
@@ -22,7 +22,7 @@ namespace Hello1
             Console.WriteLine("Hello World!");
         }
 
-        public void printArgs(string[] args)
+        public void PrintArgs(string[] args)
         {
             Console.WriteLine($"There are {args.Length} argument(s).\nThey are:");
             for (int i = 0; i < args.Length; ++i)
