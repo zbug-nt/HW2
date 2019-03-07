@@ -55,13 +55,7 @@ Print "Hello World!" in static method ***Hello*** and print arguments in static 
 ### Screenshot
 ![Hello2](/Hello2/Hello2.png)
 ## Hello3: WPF Hello World
-A label and a button is added to the MainWindow. A messagebox saying "Hello World!" will show up when the button is clicked.
-
-    private void Button_Click(object sender, RoutedEventArgs e)
-    {
-        MessageBox.Show("Hello World!");
-    }
-
+Use ***Environment.GetCommandLineArgs()*** to get commandline arguments. A MessageBox saying "Hello World!" will show up when the button "Say Hello" is clicked. A MessageBox displaying arguments will show up when the button "Show Args" is clicked. Notice that there will always be at least one argument and the first argument will always be the path of the program.
 ### Screenshot
 Before click:
 
