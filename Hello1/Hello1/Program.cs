@@ -24,6 +24,11 @@ namespace Hello1
 
         public void PrintArgs(string[] args)
         {
+            if (args.Length == 0)
+            {
+                Console.WriteLine("There is no argument");
+                return;
+            }
             Console.WriteLine($"There are {args.Length} argument(s).\nThey are:");
             for (int i = 0; i < args.Length; ++i)
             {
