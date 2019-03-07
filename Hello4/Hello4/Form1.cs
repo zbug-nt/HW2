@@ -21,6 +21,14 @@ namespace Hello4
 
         private void button1_Click(object sender, EventArgs e)
         {
+            this.label1.Text = Helloer.GenerateHelloString(args);
+        }
+    }
+
+    class Helloer
+    {
+        public static String GenerateHelloString(String[] args)
+        {
             String msg = "Hello World!\n";
             if (args.Length == 0)
             {
@@ -34,7 +42,7 @@ namespace Hello4
                     msg += args[i] + "\n";
                 }
             }
-            this.label1.Text = msg;
+            return msg;
         }
     }
 }
